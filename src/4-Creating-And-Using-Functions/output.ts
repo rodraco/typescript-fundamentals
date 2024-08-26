@@ -224,11 +224,14 @@ function runTheLearningSamples() {
     console.log(`Product id=${id} and name=${name}`);
   }
 
+  //EN Get product if exists
+  //DE Produkt holen, falls vorhanden
   const prod = getProductById(10);
   if (prod) {
     displayProduct(prod);
   }
 
-  // ~~~ Math destructuring
-  // ~~~ layoutProducts() uses destructuring
+  // Math destructuring
+  // layoutProducts() uses destructuring
+
 }
